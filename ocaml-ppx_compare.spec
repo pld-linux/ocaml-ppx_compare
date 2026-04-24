@@ -74,7 +74,7 @@ dune install --destdir=$RPM_BUILD_ROOT
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/ocaml/ppx_compare/*.ml
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/ocaml/ppx_compare/*/*.ml
 # packaged as %doc
-%{__rm} -r $RPM_BUILD_ROOT%{_prefix}/doc/ppx_compare
+%{__rm} -r $RPM_BUILD_ROOT%{_docdir}/ppx_compare
 
 %clean
 rm -rf $RPM_BUILD_ROOT
