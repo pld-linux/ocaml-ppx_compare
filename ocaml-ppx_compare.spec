@@ -10,17 +10,16 @@
 Summary:	Generation of comparison functions from types
 Summary(pl.UTF-8):	Generowanie funkcji porównujących z typów
 Name:		ocaml-ppx_compare
-Version:	0.14.0
+Version:	0.16.0
 Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/janestreet/ppx_compare/tags
 Source0:	https://github.com/janestreet/ppx_compare/archive/v%{version}/ppx_compare-%{version}.tar.gz
-# Source0-md5:	13eefa63e5d051dccebdcbdb57ffb962
+# Source0-md5:	4eb027813aa087cc7a1c0ddcc260888d
 URL:		https://github.com/janestreet/ppx_compare
 BuildRequires:	ocaml >= 1:4.04.2
 BuildRequires:	ocaml-base-devel >= 0.14
-BuildRequires:	ocaml-base-devel < 0.15
 BuildRequires:	ocaml-dune >= 2.0.0
 BuildRequires:	ocaml-ppxlib-devel >= 0.11.0
 %requires_eq	ocaml-runtime
